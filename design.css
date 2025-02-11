@@ -1,0 +1,232 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "consolas",Arial, sans-serif;
+	background:black;
+}
+
+header {
+	
+	position:fixed;
+	width:100%;
+	margin-top:-60px;
+    background-color: black;
+    color: white;
+	padding: 10px 0;
+}
+
+nav {
+	
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style for dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+/* Style for dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown content when hovering over the dropdown link */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.nav-links a {
+    color: red;
+	font-size:20px;
+    text-decoration: none;
+}
+
+.nav-links b {
+    color: white;
+	font-size:20px;
+    text-decoration: none;
+}
+
+
+
+
+.book-requests {
+    text-align: center;
+    color: white;
+    max-width: 1400px;
+    margin-top:60px;
+    padding: 40px;
+    background-color: black;
+}
+
+.book-requests h2 {
+    color: white;
+    font-family: "brush script mt", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.book-requests ul {
+    list-style: none;
+    padding: 0;
+}
+
+.request-item {
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.request-details {
+    flex: 1;
+    text-align: left;
+}
+
+.request-details h3 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.request-details p {
+    font-size: 15px;
+    color: red;
+    margin: 0;
+}
+
+.request-actions {
+    flex: 0 0 auto;
+}
+
+.cancel-request {
+    background-color: brown;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: "consolas", Arial, sans-serif;
+    border-color: brown;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-request:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    margin-top: 350px;
+}
+
+
+
+/* Add any additional CSS styles specific to admin_sell_info.php here */
+
+.sell-info {
+    text-align: center;
+    color: white;
+    max-width: 1400px;
+    margin-top: 60px;
+    padding: 40px;
+    background-color: black;
+}
+
+.sell-info h2 {
+    color: white;
+    font-family: "brush script mt", cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sell-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.sell-info th, .sell-info td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+}
+
+.sell-info th {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.sell-info tr:nth-child(even) {
+    background-color: #555;
+}
+
+.sell-info tr:nth-child(odd) {
+    background-color: #444;
+}
+
+.sell-info tr:hover {
+    background-color: #777;
+}
+
+.sell-info td {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
